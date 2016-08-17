@@ -1,7 +1,7 @@
 package com.hello.resources;
 
-import com.google.inject.Inject;
 
+import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
