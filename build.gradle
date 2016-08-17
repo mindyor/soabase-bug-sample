@@ -16,5 +16,5 @@ run {
 }
 
 dependencies {
-    compile group: 'io.soabase', name: 'soabase-guice', version: '0.11.1-SNAPSHOT'
+    compile group: 'io.soabase', name: 'soabase-guice', version: '0.11.2'
 }
