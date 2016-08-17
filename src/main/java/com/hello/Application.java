@@ -14,6 +14,7 @@ public class Application extends io.dropwizard.Application<AppConfiguration> {
 
     @Override
     public void initialize(Bootstrap<AppConfiguration> bootstrap) {
+
         bootstrap.addBundle(new GuiceBundle<>(new ConfigurationInjectorProvider<>(new GuiceModule())));
     }
 

@@ -15,8 +15,6 @@ run {
     args 'server', "$rootDir/src/main/resources/config.yml"
 }
 
-def dropWizardVersion = '1.0.0'
-
 dependencies {
     compile group: 'io.soabase', name: 'soabase-guice', version: '0.11.1-SNAPSHOT'
 }

@@ -1,12 +1,12 @@
 package com.hello.config;
 
-import com.google.inject.AbstractModule;
 import com.hello.resources.HelloWorldResource;
+import io.soabase.guice.JerseyGuiceModule;
 
-public class GuiceModule extends AbstractModule {
+public class GuiceModule extends JerseyGuiceModule {
 
     @Override
-    protected void configure() {
-        bind(HelloWorldResource.class);
+    protected void configureServlets() {
+        this.bind(HelloWorldResource.class);
     }
 }
